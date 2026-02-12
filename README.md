@@ -24,3 +24,15 @@ Exercício: Desenvolvendo uma Landing Page - Plataforma DNC
 - `image_sala.png` - Foto de interiores
 - `retangulo.svg` / `retangulo10.png` - Elementos visuais de design
 - `relangulo20.svg` - Componente gráfico adicional
+
+### Etapa 01 layout desenvolvido com base no figma: 
+https://www.figma.com/design/0FRiZbs30dfSniazKiM1rM/Desafio-1---Desenvolva-uma-Landing-Page?node-id=1-3&t=1rIrB6MFH2Y80AOL-0 
+
+### Etapa 02 Integração do Formulário HTLM com o Sheet Monkey e suas planilhas no sheets:
+https://docs.google.com/spreadsheets/d/1G8lapr-z3TolZt8ZMaJ1kNRjlXSUrim0VGUDfElyVbI/edit?gid=0#gid=0 
+
+### Etapa 03 Projeto disponibilizado no github
+https://github.com/wal-projeto/RID221037_Desafio1/tree/main 
+
+### Etapa 04 Projego Hospedado no site no Netlify: 
+Deploy da Landing Page para acesso na Internet
