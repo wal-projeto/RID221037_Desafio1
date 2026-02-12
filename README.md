@@ -34,5 +34,5 @@ https://docs.google.com/spreadsheets/d/1G8lapr-z3TolZt8ZMaJ1kNRjlXSUrim0VGUDfEly
 ### Etapa 03 Projeto disponibilizado no github
 https://github.com/wal-projeto/RID221037_Desafio1/tree/main 
 
-### Etapa 04 Projego Hospedado no site no Netlify: 
-Deploy da Landing Page para acesso na Internet
+### Etapa 04 Projego Hospedado no site no Netlify para acesso na Internet: 
+landing-page-walquiria.netlify.app 
