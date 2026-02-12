@@ -7,7 +7,7 @@
 }
   
 #menuapresentacao{      /* IMAGEM DE FUNDO */
-    background-image: url("/repositorio-Desafio-LandingPage/images/retangulo.svg");
+    background-image: url("images/retangulo.svg");
     width: 1445px;
     height: 500px;
     margin: 0px;

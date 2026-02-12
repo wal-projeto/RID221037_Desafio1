@@ -35,4 +35,3 @@ https://docs.google.com/spreadsheets/d/1G8lapr-z3TolZt8ZMaJ1kNRjlXSUrim0VGUDfEly
 https://github.com/wal-projeto/RID221037_Desafio1/tree/main 
 
 ### Etapa 04 Projego Hospedado no site no Netlify para acesso na Internet: 
-landing-page-walquiria.netlify.app 
