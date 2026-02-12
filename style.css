@@ -1,0 +1,149 @@
+#desktop{    /*div que engloba toda a pagina, com fundo branco*/
+    font-family: 'inter';
+    background: #FFFFFF;
+    width: 1440px;
+    height: 2116px;
+    margin: 0px;
+}
+  
+#menuapresentacao{      /* IMAGEM DE FUNDO */
+    background-image: url("/repositorio-Desafio-LandingPage/images/retangulo.svg");
+    width: 1445px;
+    height: 500px;
+    margin: 0px;
+
+
+}
+
+#titulo-superior{     /* H1 -> TRADIÇÃO EM PROJETOS E ARQUITETURA */
+    margin: 206px 0px 0px 62px;
+    font-size: 60px;
+    color: #FFFFFF;
+    padding-top: 200px;
+    padding-left: 65px;
+}
+    
+#paragrafo-superior {    /*PARÁGRAFO - ARQUITETURA RESIDENCIAL E COMERCIAL */
+    margin: 30px 0px 0px 62px;
+    font-size: 20px;
+    color:#FFFFFF;
+    padding-top: 10px;
+    padding-left: 65px;
+}
+
+
+#menuinformacional{   /* Menu informacional, com VALORES e os textos  - CONSTRUÍDO COM GRIDS*/
+    width: 1450px;
+    height: 255px;
+    background-color: #fdf3f9;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.coluna-info { 
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px; /* Espaço reduzido entre número e texto */
+}
+
+.textoNumerico{
+    font-size: 50px;
+    color: black;
+    padding-left: 20%;
+    margin: 0;
+}
+
+.textoInformativo{
+    font-size: 20px;
+    color: black;
+    padding-left: 20%;
+    margin: 0;
+}
+
+
+/* Conteúdo central da página, com texto E IMAGEM */
+#conteudo-texto{   
+    width: 1450px;
+    height: 900px;
+    display: grid; /* Ativa o Grid */
+    /* Define 2 colunas com tamanhos iguais (1 fração de espaço) */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px; /*Define espaçamento entre colunas e linhas respectivamente*/ 
+    place-items: center center; /* Atalho para alinhar horizontal e verticalmente ao mesmo tempo */
+
+     /* Alinhamento dos itens DENTRO de suas células (área) */
+    /*justify-items: end; /* Alinha horizontalmente (start, end, center, stretch) */
+    /*align-items: start;   /* Alinha verticalmente (start, end, center, stretch) */
+}
+
+.texto-container {
+    padding-left: 50px;
+}
+
+.texto-Arquitetos {
+    font-size: 50px;
+
+} 
+
+.textoContinuidade {
+    font-size: 25px;
+}
+
+.conteudo-imagem {
+    grid-column: 2;
+}
+
+#formulario{   /*div que engloba o formulário de contato */
+    width: 1450px;
+    height: 500px;
+    background-color: #303030;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha os itens horizontalmente ao centro */
+    justify-content: center; /* Alinha os itens verticalmente ao centro */
+}
+
+#texto-conheca {
+    font-size: 40px;
+    color: white;
+    margin-bottom: 20px; /* Define a margem inferior do texto "Conheça mais sobre nossos serviços" */
+}
+/* Estilização do formulário */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+input{
+    width: 600px;
+    height: 60px;
+    background: white;
+    margin: 20px; /* Define a margem ao redor dos campos de entrada */
+    border: none; /* Remove a borda padrão dos campos de entrada */
+    border-radius: 5px;
+    padding: 15px; /* Adiciona um preenchimento horizontal para os campos de entrada */
+    font-size: 30px;
+}
+
+button {
+    width: 200px;
+    height: 60px;
+    background: #f39212;
+    color: rgb(253, 253, 253);
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 10px; /* Deixa as bordas arredondadas */
+    font-size: 30px; /* Define o tamanho da fonte do texto do botão */
+    cursor: pointer; /* Adiciona um cursor de ponteiro para indicar que o botão é clicável */
+}
+
+button:hover{
+    background-color: #96afb9;
+    color: white;
+    transform: translateY(-5px); /* Move o botão para cima quando o mouse estiver sobre ele */
+    box-shadow: 0px 15px 20px #938f97; /* Adiciona uma sombra ao botão para dar um efeito de elevação */
+}

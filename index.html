@@ -1,0 +1,72 @@
+<!-- Atalho para alinhar o codigo no VS Code shift + Alt + F 
+ ou ctrl + shift + P-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="desktop">
+        <div id="menuapresentacao">
+            <h1 id="titulo-superior"> Tradição em projetos de arquitetura</h1>
+            <p id="paragrafo-superior"> Arquitetura residencial e comercial. </p>
+        </div>
+
+        <div id="menuinformacional">
+            <div class="coluna-info">
+                <h1 class="textoNumerico">850</h1>
+                <p class="textoInformativo">empreendimentos construídos</p>
+            </div>
+            <div class="coluna-info">
+                <h1 class="textoNumerico">40</h1>
+                <p class="textoInformativo">anos de mercado e experiência</p>
+            </div>
+            <div class="coluna-info">
+                <h1 class="textoNumerico">2.000,000</h1>
+                <p class="textoInformativo">m² em projetos construídos</p>
+            </div>
+        </div>
+
+        <div id="conteudo-texto">
+            <div class="texto-container">
+                <h1 class="texto-Arquitetos"> Arquitetos com História e Experiência.<br></h1>
+                <p class="textoContinuidade"> Nós realizamos desde 2002 projetos e gerenciamento de obras.
+                    mais de 800 projetos e 2.000.000 de m² construídos, tendo
+                    como principal proposta transformar em realidade os sonhos de
+                    seus clientes, criando projetos personalizados, unindo a tradição
+                    e a modernidade em nossos projetos.
+                </p>
+            </div>
+            <div class="conteudo-imagem">
+                <img src="/repositorio-Desafio-LandingPage/images/image_sala.png" width="510" height="605"
+                    class="imagem-sala" alt="Imagem de sala de estar">
+            </div>
+        </div>
+
+        <!--FORMULÁRIO DE CONTATO -->
+    <!--FORMULARIO : VAMOR CRIAR, CAPTURAR OS DADOS DIGITADOS E GUARDA-LOS EM UMA PLANILHA DO EXCEL -->
+    <div id = "formulario">
+        <h1 id="texto-conheca"> Conheça mais sobre nossos serviços</h1>
+        
+        <form class="formulario" action="https://api.sheetmonkey.io/form/4G2E4ZVB3scNFKKfbPCZVw" method="post">
+            <input type="text" placeholder="Nome" name="Nome" required> <br>
+            <input type="email" placeholder="Email" name="Email" required> <br>
+            <input type="hidden" name="Data" value="x-sheetmonkey-current-date-time" /> <!--captura a data e hora do sistema-->
+            <button type="submit" > Fale Conosco</button>
+        </form> 
+    </div>
+        <script src="index.js"></script>
+</body>
+</html>
